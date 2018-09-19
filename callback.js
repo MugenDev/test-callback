@@ -51,6 +51,7 @@ function callError(cb) {
 }
 
 function callSuccess(cb) {
+	// Same as noted in callError() function.
 	cb(null, "This is a success!");
 }
 
